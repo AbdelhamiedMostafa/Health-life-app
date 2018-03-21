@@ -6,6 +6,7 @@ INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.
 INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.0.2.aar\3efdf641be1d09b5f7761c9d1a6ba8b4\AndroidManifest.xml:16:1-22:12
 MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-core-9.0.2.aar\3e25d0be2d7b15443e2a8b4a93e18139\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4b40b1543661ec4c7214507645241afa\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth-common:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.0.2.aar\9b25a332d5a90c83459586507f719340\AndroidManifest.xml:16:1-22:12
@@ -19,6 +20,8 @@ MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\khaledMa
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\29fdcf13cc95d162ab1faa16e924d699\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\7bcec3bc8cf823f7508983eec96d761a\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a06adfd09e631301663f6c688c03c2d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\33697b6c74fcf815e74c77901e2ddb63\AndroidManifest.xml:17:1-31:12
@@ -59,6 +62,8 @@ MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\khaledMahmoud\.gr
 MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.0.2.aar\3efdf641be1d09b5f7761c9d1a6ba8b4\AndroidManifest.xml:20:5-21:19
 MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-core-9.0.2.aar\3e25d0be2d7b15443e2a8b4a93e18139\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-core-9.0.2.aar\3e25d0be2d7b15443e2a8b4a93e18139\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4b40b1543661ec4c7214507645241afa\AndroidManifest.xml:9:5-20
@@ -83,6 +88,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khale
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\7bcec3bc8cf823f7508983eec96d761a\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a06adfd09e631301663f6c688c03c2d\AndroidManifest.xml:25:5-29:19
@@ -147,6 +156,8 @@ MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\khaledMahmoud\.gr
 MERGED from [com.google.firebase:firebase-auth:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.0.2.aar\3efdf641be1d09b5f7761c9d1a6ba8b4\AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-core-9.0.2.aar\3e25d0be2d7b15443e2a8b4a93e18139\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-core-9.0.2.aar\3e25d0be2d7b15443e2a8b4a93e18139\AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4b40b1543661ec4c7214507645241afa\AndroidManifest.xml:5:5-7:41
@@ -173,6 +184,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khale
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\7bcec3bc8cf823f7508983eec96d761a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a06adfd09e631301663f6c688c03c2d\AndroidManifest.xml:21:5-23:60
@@ -190,7 +205,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\khaledMahmoud\.gradl
 INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
 INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
 		ADDED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
@@ -200,11 +215,17 @@ INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.
 		ADDED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
 		INJECTED from D:\khalid\prog\android\4healthyLifee\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\7bcec3bc8cf823f7508983eec96d761a\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\7bcec3bc8cf823f7508983eec96d761a\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\f9e1a3c6a01ac9d10785aa908cca15fb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ee7a2180b1932abf45ee807e8d8ea024\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\34e49f04b61f2ad2fbe64bba20f4d155\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\175c00a55bba8f095ee167b522d4dc44\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1a06adfd09e631301663f6c688c03c2d\AndroidManifest.xml:26:9-28:38
@@ -218,9 +239,9 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\khaledMahmo
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\190978be151a7ee9d0920f22a4800c50\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\190978be151a7ee9d0920f22a4800c50\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ef4bd358db69cd7b4361ae43cb2f8ad2\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\862b8266554aee839c5f4033a362edef\AndroidManifest.xml:27:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.0.2.aar\6ebce1eb60c37c59a7bdb8f890deb21a\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\khaledMahmoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.0.2.aar\58c3df653d77a58bc05a82fbe8eea612\AndroidManifest.xml:22:5-79
