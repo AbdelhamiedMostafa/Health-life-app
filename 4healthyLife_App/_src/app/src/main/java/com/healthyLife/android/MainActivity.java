@@ -1,5 +1,6 @@
 package com.healthyLife.android;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,10 +10,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
+    private ProgressBar progressBar;
+    private FirebaseAuth.AuthStateListener authListener;
+    private FirebaseAuth auth;
+
 
 
     @Override
@@ -25,6 +36,20 @@ public class MainActivity extends AppCompatActivity {
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
+        auth = FirebaseAuth.getInstance();
+
+        authListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user == null) {
+                    // user auth state is changed - user is null
+                    // launch login activity
+                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        };
 
 
 
@@ -33,6 +58,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 item.setChecked(true);
+                switch (item.getItemId())
+                {
+                    case R.id.singOut:
+                        signOut();
+                        return true;
+                    case R.id.profile:
+                        profile();
+                        return true;
+                }
                 mDrawerLayout.closeDrawers();
 
 
@@ -50,4 +84,18 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public void signOut() {
+        auth.signOut();
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        finish();
+    }
+
+
+    void profile()
+    {
+        startActivity(new Intent(MainActivity.this,profile.class));
+    }
+
+
 }
