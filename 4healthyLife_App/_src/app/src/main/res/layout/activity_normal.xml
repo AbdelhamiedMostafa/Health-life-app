@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.healthyLife.android.NormalActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/gain_weight"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/gain_weight"
+        android:textSize="23dp"
+        android:textColor="@android:color/white"
+        android:background="#32CF9A"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="gainBtn"
+        />
+    <Button
+        android:id="@+id/lose_weight"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/lose_weight"
+        android:textSize="23dp"
+        android:textColor="@android:color/white"
+        android:background="#32CF9A"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="loseBtn"
+        />
+
+</LinearLayout>

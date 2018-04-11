@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ResetPasswordActivity" />
@@ -25,7 +25,15 @@
         <activity
             android:name=".profile"
             android:label="@string/title_activity_profile"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NormalActivity" />
+        <activity android:name=".GainWeightActivity" />
+        <activity android:name=".LoseWeightActivity" />
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".HypertensionActivity" />
+        <activity android:name=".DiabetesActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".FeedbackSendActivity"></activity>
     </application>
 
 </manifest>

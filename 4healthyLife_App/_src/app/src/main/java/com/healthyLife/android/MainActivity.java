@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
+    private Button normal;
+    private Button sports;
+    private Button hypertension;
+    private Button diabetes;
 
 
 
@@ -66,11 +71,47 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.profile:
                         profile();
                         return true;
+                    case R.id.feedBack:
+                        feedBack();
+                        return true;
                 }
                 mDrawerLayout.closeDrawers();
 
 
                 return true;
+            }
+        });
+
+
+        normal = (Button) findViewById(R.id.normal_button);
+        normal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                normalBtn();
+            }
+        });
+
+        sports = (Button) findViewById(R.id.sport_button);
+        sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sportsBtn();
+            }
+        });
+
+        hypertension = (Button) findViewById(R.id.hypertension_button);
+        hypertension.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                hypertensionBtn();
+            }
+        });
+
+        diabetes = (Button) findViewById(R.id.diabetes_button);
+        diabetes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                diabetesBtn();
             }
         });
 
@@ -91,11 +132,33 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
-
     void profile()
     {
         startActivity(new Intent(MainActivity.this,profile.class));
     }
+    void feedBack()
+    {
+        startActivity(new Intent(MainActivity.this,FeedbackActivity.class));
+    }
 
+    public void normalBtn(){
+        Intent intent = new Intent(this,NormalActivity.class);
+        startActivity(intent);
+    }
+
+    public void sportsBtn(){
+        Intent intent = new Intent(this, SportsActivity.class);
+        startActivity(intent);
+    }
+
+    public void hypertensionBtn(){
+        Intent intent = new Intent (this, HypertensionActivity.class);
+        startActivity(intent);
+    }
+
+    public void diabetesBtn(){
+        Intent intent = new Intent(this,DiabetesActivity.class);
+        startActivity(intent);
+    }
 
 }
