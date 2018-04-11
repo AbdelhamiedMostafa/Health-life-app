@@ -11,6 +11,10 @@
             android:id="@+id/singOut"
             android:icon="@android:drawable/ic_menu_gallery"
             android:title="SignOut" />
+        <item
+            android:id="@+id/feedBack"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="FeedBack" />
     </group>
 
 </menu>
