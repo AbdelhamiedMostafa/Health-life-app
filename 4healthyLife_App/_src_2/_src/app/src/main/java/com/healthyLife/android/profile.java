@@ -6,6 +6,10 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class profile extends AppCompatActivity {
 
@@ -24,6 +28,33 @@ public class profile extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void CalcBMI(View view){
+
+        EditText weightText = findViewById(R.id.editText4);
+        double weight = Double.parseDouble(weightText.getText().toString());
+
+        System.out.println(weight);
+
+        EditText heightText = findViewById(R.id.editText5);
+        double height = Double.parseDouble(heightText.getText().toString())/100;
+
+        System.out.println(height);
+
+        double BMI = weight/(height*height);
+
+        BMI = Math.floor(BMI*10)/10;
+
+        System.out.println(BMI);
+
+        TextView bmiText = (TextView) findViewById(R.id.bmi_label);
+
+        String bmiStr = "BMI: "+BMI;
+
+        bmiText.setText(bmiStr);
+
+
     }
 
 }

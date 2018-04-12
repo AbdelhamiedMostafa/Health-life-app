@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.healthyLife.android.profile"
+    tools:showIn="@layout/activity_profile"
+    android:padding="10dp">
+
+    <!--Profile form-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#222"
+            android:layout_alignBaseline="@+id/editText1"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:layout_toRightOf="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="#222"
+            android:layout_alignBaseline="@+id/editText2"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_below="@+id/editText1"
+            android:layout_marginLeft="20dp"
+            android:hint="UserName"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textColor="#222"
+            android:layout_alignBaseline="@+id/editText3"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_below="@+id/editText2"
+            android:layout_marginLeft="20dp"
+            android:hint="E-mail"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+
+    <!--BMI form-->
+    <RelativeLayout
+        android:id="@+id/form2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp">
+
+        <TextView
+            android:id="@+id/weight_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText4"
+            android:text="Weight"
+            android:textColor="#222" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/weight_label"
+            android:ems="4"
+            android:hint="kg"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/height_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText5"
+            android:layout_toRightOf="@+id/editText4"
+            android:text="Height"
+            android:textColor="#222" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/height_label"
+            android:ems="4"
+            android:hint="cm"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/bmi_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:layout_marginTop="30dp"
+            android:text="BMI : 0"
+            android:textColor="#222"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bmi_label"
+            android:layout_alignBottom="@+id/bmi_label"
+            android:layout_toEndOf="@+id/editText4"
+            android:layout_toRightOf="@+id/editText4"
+            android:text="Calculate"
+            android:onClick="CalcBMI"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form2"
+        android:text="Reset My Password"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/form2"
+        android:layout_alignParentRight="true"
+        android:text="Save"
+        />
+
+</RelativeLayout>
