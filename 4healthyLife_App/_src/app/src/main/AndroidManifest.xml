@@ -33,7 +33,8 @@
         <activity android:name=".HypertensionActivity" />
         <activity android:name=".DiabetesActivity" />
         <activity android:name=".FeedbackActivity" />
-        <activity android:name=".FeedbackSendActivity"></activity>
+        <activity android:name=".FeedbackSendActivity" />
+        <activity android:name=".SaveProfile"></activity>
     </application>
 
 </manifest>

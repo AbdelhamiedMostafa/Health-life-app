@@ -1,6 +1,8 @@
 package com.healthyLife.android;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,12 +23,19 @@ public class SignupActivity extends AppCompatActivity {
     private Button btnSignIn, btnSignUp, btnResetPassword;
     private ProgressBar progressBar;
     private FirebaseAuth auth;
+    public static final String MyMail = "MyMail" ;
+    public static final String Email = "emailKey";
+    SharedPreferences sharedpreferences;
+
+
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        sharedpreferences = getSharedPreferences(MyMail, Context.MODE_PRIVATE);
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
@@ -89,7 +98,12 @@ public class SignupActivity extends AppCompatActivity {
                                     Toast.makeText(SignupActivity.this, "Authentication failed." + task.getException(),
                                             Toast.LENGTH_SHORT).show();
                                 } else {
-                                    startActivity(new Intent(SignupActivity.this, MainActivity.class));
+
+
+                                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                                    editor.putString(Email,inputEmail.getText().toString());
+                                    editor.commit();
+                                    startActivity(new Intent(SignupActivity.this, SaveProfile.class));
                                     finish();
                                 }
                             }

@@ -1,6 +1,8 @@
 package com.healthyLife.android;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,15 +27,21 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Button btnSignup, btnLogin, btnReset;
 
+    public static final String MyMail = "MyMail" ;
+    public static final String Email = "emailKey";
+    SharedPreferences sharedpreferences;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        sharedpreferences = getSharedPreferences(MyMail, Context.MODE_PRIVATE);
         auth = FirebaseAuth.getInstance();
 
         if (auth.getCurrentUser() != null) {
+
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
         }
@@ -105,6 +113,9 @@ public class LoginActivity extends AppCompatActivity {
                                         Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
                                     }
                                 } else {
+                                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                                    editor.putString(Email,inputEmail.getText().toString());
+                                    editor.commit();
                                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                     startActivity(intent);
                                     finish();
