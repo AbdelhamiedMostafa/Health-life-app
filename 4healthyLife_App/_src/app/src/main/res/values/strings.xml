@@ -35,5 +35,6 @@
     <string name="sports">sports</string>
     <string name="diabetes">diabetes</string>
     <string name="hypertension">hypertension</string>
-    <string name="send">submit</string>
+    <string name="send">send</string>
+    <string name="home">home</string>
 </resources>

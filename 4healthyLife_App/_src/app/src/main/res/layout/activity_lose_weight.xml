@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.healthyLife.android.LoseWeightActivity">
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/innclude_healthy">
 
-</android.support.constraint.ConstraintLayout>
+        </include>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOSE WEIGHT"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="      During any type of diet, remember that your goal is to support your natural detoxification processes while helping your body maintain a healthy balance of nutrients.\n* For this reason, following a healthy diet during cleansing is also important.\n* Below are some quick tips to help you get started:"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000000"
+                android:layout_marginRight="14dp"
+                android:layout_marginLeft="14dp"
+                ></FrameLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="1-Add more “living foods” such as raw, organic fruits and veggies (veggies may also be lightly steamed) along with fermented foods that contain beneficial probiotic cultures. These include yogurt, kefir, miso and tempeh."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="2-Choose protein sources such as organic, natural, or free-range chicken, turkey, beef, fish, tofu and eggs."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="3-Consume essential fatty acids such as the beneficial Omega-3 fats found in oily fish and certain nuts and seeds."
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="4-Opt for well-cooked grains from sources such as millet, buckwheat, khorasan wheat, amaranth, quinoa, spelt, teff, rye, basmati rice, wild rice, and brown rice—all of which provide added fiber while cleansing."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="5-Drink plenty of purified water to help to flush unwanted toxins and waste from the body. A good rule of thumb is to drink at least half your body weight in ounces of purified water every day."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="6-Try to limit your consumption of sugar (both table sugar and hidden refined sugars) and starchy carbohydrates, which may feed unhealthy microbes in the gut."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="7-as for exercise, running, jogging, walking, swimming, elliptical, jumping rope- do it 3x a week and you can start slow at first, like a 25 minute walk the first week or two, then bump it up to 35, etc."
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

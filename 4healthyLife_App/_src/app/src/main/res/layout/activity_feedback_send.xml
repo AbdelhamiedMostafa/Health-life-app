@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.healthyLife.android.FeedbackSendActivity">
     <TextView
         android:layout_width="wrap_content"
@@ -15,5 +16,15 @@ We hope that HEALTHY LIFE is usefull for you."
         android:textSize="20dp"
         />
 
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:background="#32CF9A"
+        android:onClick="homeBtn"
+        android:text="@string/home"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
