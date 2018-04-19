@@ -92,4 +92,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:text="resset" />
+
+    <Button
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/resset"
+        android:layout_alignRight="@+id/resset"
+        android:layout_below="@+id/showBMI"
+        android:layout_marginTop="25dp"
+        android:text="get Notifications" />
 </RelativeLayout>
