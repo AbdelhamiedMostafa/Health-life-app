@@ -72,9 +72,9 @@ public class profile extends AppCompatActivity {
 
                 Calendar calendar = Calendar.getInstance();
 
-                calendar.set(Calendar.HOUR_OF_DAY,2);
-                calendar.set(Calendar.MINUTE,23);
-                calendar.set(Calendar.SECOND,30);
+                calendar.set(Calendar.HOUR_OF_DAY,10);
+                calendar.set(Calendar.MINUTE,9);
+                calendar.set(Calendar.SECOND,20);
 
                 Intent intent = new Intent(getApplicationContext(),Notification_reciver.class);
                 PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),100,intent,PendingIntent.FLAG_UPDATE_CURRENT);
