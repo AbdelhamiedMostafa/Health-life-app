@@ -40,6 +40,10 @@
         <activity android:name=".FeedbackSendActivity" />
         <activity android:name=".SaveProfile" />
         <activity android:name=".RepeatingData"></activity>
+        <activity android:name=".LowHyper"/>
+        <activity android:name=".LowSugar"/>
+        <activity android:name=".HighHyper"/>
+        <activity android:name=".HighSugar"/>
     </application>
 
 </manifest>

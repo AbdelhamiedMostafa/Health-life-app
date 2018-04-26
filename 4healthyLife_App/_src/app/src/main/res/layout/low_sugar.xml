@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <include
+            layout="@layout/innclude_healthy">
+
+        </include>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Low Suager"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="1-Get rid of anything that's fat free, Larson says. Make your own salad dressing with healthy oils, rather than buying them ready-made."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="2-Bid farewell to products that have light, diet and low-cal on the label. Eat higher-calorie breads, and choose bagels over toast or English muffins."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="3-Make sure that your cereal has at least 200 calories per cup"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="4-Also put fatty fish, like salmon, on your dinner menu. It's higher in calories and has healthy omega-3 fatty acids."
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="5-Eat desserts that have a lot of nutrients, like frozen yogurt, oatmeal cookies, zucchini bread, and pumpkin pie."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="6-Review your fridge and cabinet, and track your eating for a few days to see what else can be replaced with high-calorie options."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginBottom="2dp"
+                android:text="7-as for exercise, running, jogging, walking, swimming, elliptical, jumping rope- do it 3x a week and you can start slow at first, like a 25 minute walk the first week or two, then bump it up to 35, etc."
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
