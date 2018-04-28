@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERAL TIPS"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink water"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do Sport"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eat healthy food"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink water again"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sleep well"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink water mor again"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"/>
+
+
+
+
+
+
+</LinearLayout>

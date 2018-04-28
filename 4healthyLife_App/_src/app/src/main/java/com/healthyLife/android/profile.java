@@ -1,5 +1,7 @@
 package com.healthyLife.android;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,12 +15,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 import org.w3c.dom.Text;
+
+import java.util.Calendar;
 
 public class profile extends AppCompatActivity {
     TextView name,phone,emil,BMILast;
     EditText weight,height;
-    Button callc,reset;
+    Button callc,reset,notifcation;
 
     public static final String MyMail = "MyMail" ;
     String accMail;
@@ -36,12 +41,16 @@ public class profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+
         name = (TextView)findViewById(R.id.showName);
         phone = (TextView)findViewById(R.id.showPhone);
         emil = (TextView)findViewById(R.id.showMail);
         BMILast = (TextView)findViewById(R.id.BMI);
         callc = (Button)findViewById(R.id.showBMI);
         reset = (Button)findViewById(R.id.resset);
+        notifcation = (Button)findViewById(R.id.notification);
+
 
 
         weight = (EditText)findViewById(R.id.weight);
@@ -57,6 +66,26 @@ public class profile extends AppCompatActivity {
         name.setText(nameget);
         phone.setText(phoneget);
         emil.setText(accMail);
+
+        notifcation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Calendar calendar = Calendar.getInstance();
+
+                calendar.set(Calendar.HOUR_OF_DAY,10);
+                calendar.set(Calendar.MINUTE,9);
+                calendar.set(Calendar.SECOND,20);
+
+                Intent intent = new Intent(getApplicationContext(),Notification_reciver.class);
+                PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),100,intent,PendingIntent.FLAG_UPDATE_CURRENT);
+
+                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),AlarmManager.INTERVAL_DAY,pendingIntent);
+
+
+            }
+        });
 
 
 
